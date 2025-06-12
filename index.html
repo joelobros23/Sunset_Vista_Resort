@@ -3,11 +3,70 @@
 <head>
 	<meta charset='UTF-8'>
 	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-	<title>Sunset_Vista_Resort</title>
+	<title>Sunset Vista Resort</title>
 	<script src='https://cdn.tailwindcss.com'></script>
 	<link rel='stylesheet' href='assets/css/style.css'>
 </head>
-<body>
-	<!-- Content for index.html will be generated here -->
+<body class="bg-gray-100">
+	<header class="bg-white shadow-md">
+		<nav class="container mx-auto py-4 px-6 flex items-center justify-between">
+			<div class="text-2xl font-bold text-gray-800">
+				Sunset Vista Resort
+			</div>
+			<div class="space-x-6">
+				<a href="index.html" class="text-gray-700 hover:text-blue-500">Home</a>
+				<a href="rooms.html" class="text-gray-700 hover:text-blue-500">Rooms</a>
+				<a href="amenities.html" class="text-gray-700 hover:text-blue-500">Amenities</a>
+				<a href="gallery.html" class="text-gray-700 hover:text-blue-500">Gallery</a>
+				<a href="contact.html" class="text-gray-700 hover:text-blue-500">Contact</a>
+			</div>
+		</nav>
+	</header>
+
+	<main class="container mx-auto py-8 px-6">
+		<section class="hero mb-8">
+			<img src="https://placehold.co/1200x500" alt="Hero Image" class="w-full rounded-lg shadow-md">
+			<div class="mt-4">
+				<h1 class="text-4xl font-bold text-gray-800 mb-2">Welcome to Sunset Vista Resort</h1>
+				<p class="text-gray-600">Experience unparalleled luxury and breathtaking ocean views at Sunset Vista Resort. Our resort offers a serene escape from the everyday, with world-class amenities and exceptional service. Indulge in exquisite dining, relax by our infinity pool, or explore the natural beauty of our surroundings.</p>
+			</div>
+		</section>
+
+		<section class="featured-rooms mb-8">
+			<h2 class="text-2xl font-bold text-gray-800 mb-4">Featured Rooms</h2>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+				<div class="bg-white rounded-lg shadow-md overflow-hidden">
+					<img src="https://placehold.co/600x400" alt="Room 1" class="w-full h-48 object-cover">
+					<div class="p-4">
+						<h3 class="text-xl font-semibold text-gray-800 mb-2">Ocean View Suite</h3>
+						<p class="text-gray-600">Enjoy breathtaking panoramic ocean views from your private balcony. This luxurious suite features a king-size bed, a spacious living area, and a marble bathroom.</p>
+					</div>
+				</div>
+				<div class="bg-white rounded-lg shadow-md overflow-hidden">
+					<img src="https://placehold.co/600x400" alt="Room 2" class="w-full h-48 object-cover">
+					<div class="p-4">
+						<h3 class="text-xl font-semibold text-gray-800 mb-2">Deluxe Room</h3>
+						<p class="text-gray-600">Our deluxe rooms offer a comfortable and stylish retreat, with modern amenities and stunning views of the resort gardens. Features include a queen-size bed, a private balcony, and a well-appointed bathroom.</p>
+					</div>
+				</div>
+				<div class="bg-white rounded-lg shadow-md overflow-hidden">
+					<img src="https://placehold.co/600x400" alt="Room 3" class="w-full h-48 object-cover">
+					<div class="p-4">
+						<h3 class="text-xl font-semibold text-gray-800 mb-2">Family Suite</h3>
+						<p class="text-gray-600">Ideal for families, our spacious family suites feature two bedrooms, a separate living area, and a private balcony with ocean views. Enjoy ample space and privacy for everyone.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about-us">
+			<h2 class="text-2xl font-bold text-gray-800 mb-4">About Us</h2>
+			<p class="text-gray-600">Sunset Vista Resort is a luxury destination committed to providing unforgettable experiences. Our mission is to exceed your expectations with exceptional service, world-class amenities, and a serene atmosphere. We strive to create a welcoming and relaxing environment where you can unwind and create lasting memories.</p>
+		</section>
+	</main>
+
+	<footer class="bg-gray-200 py-4 text-center">
+		<p class="text-gray-700">© 2024 Sunset Vista Resort. All rights reserved.</p>
+	</footer>
 </body>
 </html>
