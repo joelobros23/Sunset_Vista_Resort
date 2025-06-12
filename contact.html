@@ -3,11 +3,75 @@
 <head>
 	<meta charset='UTF-8'>
 	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-	<title>Sunset_Vista_Resort</title>
+	<title>Sunset Vista Resort - Contact</title>
 	<script src='https://cdn.tailwindcss.com'></script>
 	<link rel='stylesheet' href='assets/css/style.css'>
 </head>
-<body>
-	<!-- Content for contact.html will be generated here -->
+<body class="bg-gray-100">
+	<!-- Header with Navigation -->
+	<header class="bg-white shadow-md">
+		<nav class="container mx-auto px-4 py-3 flex items-center justify-between">
+			<a href="index.html" class="text-2xl font-bold text-gray-800">Sunset Vista Resort</a>
+			<div class="space-x-6">
+				<a href="index.html" class="text-gray-600 hover:text-gray-800">Home</a>
+				<a href="rooms.html" class="text-gray-600 hover:text-gray-800">Rooms</a>
+				<a href="amenities.html" class="text-gray-600 hover:text-gray-800">Amenities</a>
+				<a href="gallery.html" class="text-gray-600 hover:text-gray-800">Gallery</a>
+				<a href="contact.html" class="text-blue-600 font-semibold">Contact</a>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Main Content -->
+	<main class="container mx-auto py-12">
+		<section class="mb-8">
+			<h1 class="text-3xl font-bold text-gray-800 mb-4">Contact Us</h1>
+			<p class="text-gray-700">
+				We'd love to hear from you! Please use the form below to send us a message, or contact us directly using the information provided. Our team is available 24/7 to assist with your inquiries. We strive to respond to all messages within 24 hours. Thank you for considering Sunset Vista Resort. We look forward to welcoming you!
+			</p>
+		</section>
+
+		<section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+			<div>
+				<img src="https://placehold.co/600x400" alt="Contact Image" class="rounded-lg shadow-md">
+			</div>
+			<div>
+				<form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+					<div class="mb-4">
+						<label class="block text-gray-700 text-sm font-bold mb-2" for="name">
+							Name
+						</label>
+						<input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Your Name">
+					</div>
+					<div class="mb-4">
+						<label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+							Email
+						</label>
+						<input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Your Email">
+					</div>
+					<div class="mb-4">
+						<label class="block text-gray-700 text-sm font-bold mb-2" for="message">
+							Message
+						</label>
+						<textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="message" rows="5" placeholder="Your Message"></textarea>
+					</div>
+					<div class="flex items-center justify-between">
+						<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+							Send Message
+						</button>
+					</div>
+				</form>
+			</div>
+		</section>
+	</main>
+
+	<!-- Footer -->
+	<footer class="bg-gray-800 text-white py-8">
+		<div class="container mx-auto px-4 text-center">
+			<p>&copy; 2024 Sunset Vista Resort. All rights reserved.</p>
+			<p class="mt-2">123 Ocean View Drive, Paradise Island</p>
+			<p>Email: info@sunsetvistaresort.com | Phone: (555) 123-4567</p>
+		</div>
+	</footer>
 </body>
 </html>
