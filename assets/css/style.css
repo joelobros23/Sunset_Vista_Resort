@@ -1,1 +1,113 @@
 /* Styles for Sunset_Vista_Resort */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-serif bg-gradient-to-br from-orange-100 to-amber-50;
+  }
+
+  h1 {
+    @apply text-4xl font-bold text-orange-700 mb-4;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold text-orange-600 mb-3;
+  }
+
+  h3 {
+    @apply text-2xl font-medium text-orange-500 mb-2;
+  }
+
+  p {
+    @apply text-gray-700 leading-relaxed mb-4;
+  }
+
+  a {
+    @apply text-orange-500 hover:text-orange-700 transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .navbar {
+    @apply bg-white shadow-md py-4;
+  }
+
+  .navbar-container {
+    @apply container mx-auto px-4 flex items-center justify-between;
+  }
+
+  .nav-links {
+    @apply space-x-6;
+  }
+
+  .nav-link {
+    @apply text-gray-700 hover:text-orange-500 transition-colors duration-200;
+  }
+
+  .hero {
+    @apply bg-cover bg-center h-96 flex items-center justify-center text-white text-center;
+  }
+
+  .hero-content {
+    @apply bg-black bg-opacity-50 p-8 rounded-md;
+  }
+
+  .hero-title {
+    @apply text-5xl font-bold mb-4;
+  }
+
+  .hero-subtitle {
+    @apply text-xl;
+  }
+
+  .section {
+    @apply py-12;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold text-orange-700 mb-8 text-center;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden;
+  }
+
+  .card-image {
+    @apply w-full h-48 object-cover;
+  }
+
+  .card-content {
+    @apply p-4;
+  }
+
+  .card-title {
+    @apply text-xl font-semibold text-orange-600 mb-2;
+  }
+
+  .card-description {
+    @apply text-gray-700;
+  }
+
+  .btn {
+    @apply bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded transition-colors duration-200;
+  }
+
+  .footer {
+    @apply bg-gray-800 text-white py-8;
+  }
+
+  .footer-content {
+    @apply container mx-auto text-center;
+  }
+
+  .footer-links {
+    @apply space-x-4;
+  }
+
+  .footer-link {
+    @apply text-gray-300 hover:text-white transition-colors duration-200;
+  }
+}
